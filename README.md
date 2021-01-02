@@ -12,7 +12,7 @@ In all cases, users are responsible for obtaining HSL packages.
 ## Installing
 
 ```JULIA
-julia> Pkg.clone("https://github.com/JuliaSmoothOptimizers/HSL.jl.git")
+julia> pkg"add https://github.com/JuliaSmoothOptimizers/HSL.jl.git"
 ```
 
 At this point, make sure that there isn't a stray METIS library on your library
